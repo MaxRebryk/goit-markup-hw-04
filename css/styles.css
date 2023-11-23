@@ -131,7 +131,15 @@ h3 {
 .first{
     color: #FFFFFF;
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-size: cover;
     padding: 188px 0;
+}
+
+.first::after{
+  content: none;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7));
+
 }
 
 .first-header{
