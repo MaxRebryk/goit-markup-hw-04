@@ -1,3 +1,6 @@
+
+                /* Main */
+
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -42,6 +45,14 @@ h3 {
     color: #2E2F42;
     margin: 0;
 }
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+                 /* Header */
 
 .logo{
     text-decoration: none;
@@ -127,6 +138,35 @@ h3 {
     text-decoration: underline;
     color: #404BBF;
 }
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigate {
+    display: flex;
+    gap: 40px;
+}
+
+.address-contacts {
+    display: flex;
+    gap: 40px;
+
+}
+
+.contacts-item {
+    gap: 40px;
+}
+
+                /* First Section */
 
 .first{
     color: #FFFFFF;
@@ -227,6 +267,8 @@ h3 {
     
 }
 
+                /* Team Section */
+
 .team{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -278,6 +320,8 @@ h3 {
     text-align: center;
 }
 
+                /* Portfolio Section */
+
 .portfolio-header{
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -327,6 +371,8 @@ h3 {
     color: #434455;
 }
 
+                /* Footer */
+
 .footer{
     background-color: #2E2F42;
     padding: 100px 0;
@@ -365,35 +411,5 @@ h3 {
     color: #F4F4FD;
 }
 
-.container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
-.navigation{
-    display: flex;
-    align-items: center;
-    
-}
 
-.head-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navigate{
-    display: flex;
-    gap: 40px;
-}
-
-.address-contacts{
-    display: flex;
-    gap: 40px;
-    
-}
-
-.contacts-item{
-    gap: 40px;
-}
