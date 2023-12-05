@@ -413,7 +413,11 @@ h3 {
 
 }
 
-.social-link:hover:focus{
+.social-link:hover{
+    background-color: #4d5ae5;
+}
+
+.social-link:focus{
     background-color: #4d5ae5;
 }
 
