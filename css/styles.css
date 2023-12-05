@@ -86,7 +86,7 @@ h3 {
 
 .link{
     text-decoration: none;
-    color:#2e2f42;
+    color: #404bbf;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -94,12 +94,13 @@ h3 {
     padding: 24px 0;
     display: block;
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
 
 .link::after{
-    content: none;
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -125,6 +126,7 @@ h3 {
     color: #434455;
     text-decoration: none;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-item:hover{
