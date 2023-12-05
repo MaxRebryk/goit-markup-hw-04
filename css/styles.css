@@ -296,6 +296,10 @@ h3 {
     background: var(--CLOUD, #F4F4FD);
     position: relative;
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .advantages-icon{
